@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xDim: 6
-  yDim: 6
+  yDim: 7
   fillTime: 0.1
   level: {fileID: 1773144088}
   piecePrefabs:
@@ -521,11 +521,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameGrid: {fileID: 581336197}
   hud: {fileID: 97316481}
-  score1Star: 8000
-  score2Star: 10000
-  score3Star: 15000
-  numMoves: 10
-  targetScore: 8000
+  score1Star: 12000
+  score2Star: 16000
+  score3Star: 20000
+  numMoves: 12
+  targetScore: 12000
 --- !u!4 &1773144089
 Transform:
   m_ObjectHideFlags: 0
