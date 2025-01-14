@@ -526,11 +526,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameGrid: {fileID: 581336197}
   hud: {fileID: 1464972685}
-  score1Star: 50000
-  score2Star: 60000
-  score3Star: 75000
-  timeInSeconds: 90
-  targetScore: 50000
+  score1Star: 20000
+  score2Star: 25000
+  score3Star: 35000
+  timeInSeconds: 75
+  targetScore: 20000
 --- !u!4 &1773144089
 Transform:
   m_ObjectHideFlags: 0
