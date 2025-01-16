@@ -113,7 +113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.7, y: 0.5}
+  m_AnchoredPosition: {x: 1.7, y: -155}
   m_SizeDelta: {x: 1043.4, y: 310.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222130994581416694
@@ -157,7 +157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You lose!
+  m_Text: "\u041F\u0440\u043E\u0438\u0433\u0440\u0430\u043B"
 --- !u!1 &1030281417694902
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +455,7 @@ GameObject:
   - component: {fileID: 222279877514387094}
   - component: {fileID: 114655849170563854}
   - component: {fileID: 114603423470971464}
+  - component: {fileID: 3171275781701139187}
   m_Layer: 5
   m_Name: DoneButton
   m_TagString: Untagged
@@ -479,7 +480,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 567, y: -339}
+  m_AnchoredPosition: {x: 567, y: -425}
   m_SizeDelta: {x: 488, y: 376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222279877514387094
@@ -576,6 +577,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3171275781701139187}
+        m_TargetAssemblyTypeName: YG.EventsYG2, Assembly-CSharp
+        m_MethodName: _InterstitialAdvShow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3171275781701139187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154770394199092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341f31e995335eb49bcb5f79b009a4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!1 &1183277599999146
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,7 +866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 111.099976}
+  m_AnchoredPosition: {x: -8, y: 327.99994}
   m_SizeDelta: {x: 810.3, y: 391}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222324969519916148
@@ -1103,7 +1129,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 87c316b602156405d92e616621658222, type: 3}
     m_FontSize: 100
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
@@ -1148,7 +1174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 111.099976}
+  m_AnchoredPosition: {x: -8, y: 327.99994}
   m_SizeDelta: {x: 810.3, y: 391}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222833769676328664
@@ -1223,7 +1249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -252}
+  m_AnchoredPosition: {x: -8, y: 97}
   m_SizeDelta: {x: 810.3, y: 267.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222151909615631220
@@ -1318,6 +1344,7 @@ GameObject:
   - component: {fileID: 222591459139436890}
   - component: {fileID: 114256540352961144}
   - component: {fileID: 114672485418875982}
+  - component: {fileID: 5035543051490190818}
   m_Layer: 5
   m_Name: ReplayButton
   m_TagString: Untagged
@@ -1342,7 +1369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -567, y: -342.7}
+  m_AnchoredPosition: {x: -567, y: -428.7}
   m_SizeDelta: {x: 488, y: 376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222591459139436890
@@ -1439,6 +1466,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5035543051490190818}
+        m_TargetAssemblyTypeName: YG.EventsYG2, Assembly-CSharp
+        m_MethodName: _InterstitialAdvShow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5035543051490190818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577258123768804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341f31e995335eb49bcb5f79b009a4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!1 &1624901243683960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,7 +1679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 111.099976}
+  m_AnchoredPosition: {x: -8, y: 328}
   m_SizeDelta: {x: 810.3, y: 391}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222861827691001188
@@ -1848,7 +1900,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1084d924147440942a91b52a29e64d14, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e92378d1af67c6147923fe02ebd28de2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2314,7 +2366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.000008, y: 111.10002}
+  m_AnchoredPosition: {x: -8.000008, y: 328}
   m_SizeDelta: {x: 810.3, y: 391}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222397221084794558
@@ -2446,6 +2498,7 @@ GameObject:
   - component: {fileID: 3187270516594037511}
   - component: {fileID: 6992923799919564694}
   - component: {fileID: 3239591284774180974}
+  - component: {fileID: 8651351001180337330}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2567,3 +2620,28 @@ MonoBehaviour:
           m_StringArgument: Level01
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8651351001180337330}
+        m_TargetAssemblyTypeName: YG.EventsYG2, Assembly-CSharp
+        m_MethodName: _InterstitialAdvShow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8651351001180337330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293332889126845912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341f31e995335eb49bcb5f79b009a4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []

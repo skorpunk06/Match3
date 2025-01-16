@@ -1,0 +1,3 @@
+Build path: E:/Programs/GitHub/Projects/Match3/Build/Build with YG/Shretch3.exe
+Build number: 1
+PluginYG version: 2.003

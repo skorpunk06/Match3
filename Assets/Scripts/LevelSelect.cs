@@ -13,16 +13,16 @@ namespace Match3
 
         public ButtonPlayerPrefs[] buttons;
 
-        private void Start()
+        private void moont()
         {
             for (int i = 0; i < buttons.Length; i++)
             {
                 int score = PlayerPrefs.GetInt(buttons[i].playerPrefKey, 0);
 
-                for (int starIndex = 1; starIndex <= 3; starIndex++)
+                for (int moonIndex = 1; moonIndex <= 3; moonIndex++)
                 {
-                    Transform star = buttons[i].gameObject.transform.Find($"star{starIndex}");
-                    star.gameObject.SetActive(starIndex <= score);                
+                    Transform moon = buttons[i].gameObject.transform.Find($"moon{moonIndex}");
+                    moon.gameObject.SetActive(moonIndex <= score);                
                 }
             }
         }
